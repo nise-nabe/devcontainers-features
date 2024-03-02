@@ -4,6 +4,6 @@ set -e
 
 source dev-container-features-test-lib
 
-check "execute command" bash -c "echo \"test\""
+check "execute command" bash -c "godot"
 
 reportResults
