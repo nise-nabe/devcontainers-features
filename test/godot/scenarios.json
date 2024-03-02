@@ -1,0 +1,8 @@
+{
+    "godot": {
+        "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+        "features": {
+            "godot": {}
+        }
+    }
+}
