@@ -3,6 +3,5 @@
     "id": "godot",
     "version": "0.0.1",
     "installsAfter": [
-        "ghcr.io/devcontainers/features/common-utils"
     ]
 }
