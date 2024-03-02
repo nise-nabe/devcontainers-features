@@ -14,8 +14,7 @@ jobs:
     strategy:
       matrix:
         features:
-          - color
-          - hello
+          - godot
         baseImage:
           - debian:latest
           - ubuntu:latest
