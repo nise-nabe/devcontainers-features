@@ -11,7 +11,7 @@ jobs:
       pull-requests: write
       packages: write
     steps:
-      - uses: actions/checkout@v5.0.0
+      - uses: actions/checkout@v5.0.1
 
       - name: "Publish Features"
         uses: devcontainers/action@v1.4.3
