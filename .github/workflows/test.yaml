@@ -20,7 +20,7 @@ jobs:
           - ubuntu:latest
           - mcr.microsoft.com/devcontainers/base:ubuntu
     steps:
-      - uses: actions/checkout@v5.0.0
+      - uses: actions/checkout@v6.0.0
 
       - name: "Install latest devcontainer CLI"
         run: npm install -g @devcontainers/cli
@@ -36,7 +36,7 @@ jobs:
         features:
           - godot
     steps:
-      - uses: actions/checkout@v5.0.0
+      - uses: actions/checkout@v6.0.0
 
       - name: "Install latest devcontainer CLI"
         run: npm install -g @devcontainers/cli
@@ -48,7 +48,7 @@ jobs:
     runs-on: ubuntu-latest
     continue-on-error: true
     steps:
-      - uses: actions/checkout@v5.0.0
+      - uses: actions/checkout@v6.0.0
 
       - name: "Install latest devcontainer CLI"
         run: npm install -g @devcontainers/cli
