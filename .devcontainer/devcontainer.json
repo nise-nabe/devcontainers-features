@@ -1,5 +1,5 @@
 {
-    "image": "mcr.microsoft.com/devcontainers/javascript-node:24",
+    "image": "mcr.microsoft.com/devcontainers/javascript-node:4-24-trixie",
     "customizations": {
         "vscode": {
             "settings": {
@@ -18,5 +18,5 @@
         "ghcr.io/devcontainers/features/docker-in-docker:2": {}
     },
     "remoteUser": "node",
-    "updateContentCommand": "npm install -g @devcontainers/cli"
+    "postCreateCommand": "npm install -g @devcontainers/cli"
 }
