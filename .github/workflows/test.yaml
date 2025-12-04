@@ -16,7 +16,7 @@ jobs:
         features:
           - godot
     steps:
-      - uses: actions/checkout@v6.0.0
+      - uses: actions/checkout@v6.0.1
 
       - name: "Install latest devcontainer CLI"
         run: npm install -g @devcontainers/cli
@@ -28,7 +28,7 @@ jobs:
     runs-on: ubuntu-latest
     continue-on-error: true
     steps:
-      - uses: actions/checkout@v6.0.0
+      - uses: actions/checkout@v6.0.1
 
       - name: "Install latest devcontainer CLI"
         run: npm install -g @devcontainers/cli
